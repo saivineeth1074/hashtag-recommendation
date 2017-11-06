@@ -23,3 +23,7 @@
 - *RWR.py* - code implementing random walk with restart method.
 - *LTModel.py* - Code to implement the language translation model.
 - *rankSVM.py* - code implementing the learning to rank method.
+
+### Steps to run the code
+- Before running the code, the required modules can be installed using the command `sudo pip3 install -r requirements.txt`.
+- The file *app.py* can be run using the command `python3 app.py` for a given test post which then gives out the recommended hashtags for the given post.
