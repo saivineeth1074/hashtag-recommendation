@@ -13,13 +13,13 @@
 
 ### Code files description
 - All the codes were written in **python 3.5.2**.
-- app.py -  Main code which returns the top-K recommended hashtags when the test data is given as input (end-to-end).
-- crawler.py - Code to scrape data from a given domain on the moneycontrol website.
-- structuredData.py - Code to create a structured data from the scraped data (which are stored in separate files).
-- getEntities.py - Code to get all the entities for all the posts using dendalion API.
-- similarDesc.py - code implementing cosine similarity using the description of the post.
-- similarContent.py - code implementing cosine similarity using the content of the post.
-- domainLink.py - Code to recommend hashtags based on the domain of the test data.
-- RWR.py - code implementing random walk with restart method.
-- LTModel.py - Code to implement the language translation model.
-- rankSVM.py - code implementing the learning to rank method.
+- *app.py* -  Main code which returns the top-K recommended hashtags when the test data is given as input (end-to-end).
+- *crawler.py* - Code to scrape data from a given domain on the moneycontrol website.
+- *structuredData.py* - Code to create a structured data from the scraped data (which are stored in separate files).
+- *getEntities.py* - Code to get all the entities for all the posts using dendalion API.
+- *similarDesc.py* - code implementing cosine similarity using the description of the post.
+- *similarContent.py* - code implementing cosine similarity using the content of the post.
+- *domainLink.py* - Code to recommend hashtags based on the domain of the test data.
+- *RWR.py* - code implementing random walk with restart method.
+- *LTModel.py* - Code to implement the language translation model.
+- *rankSVM.py* - code implementing the learning to rank method.

@@ -1,3 +1,7 @@
+"""
+    Program: find the entities (using API) for all the posts and save them onto a file
+"""
+
 import os, sys
 import csv
 import requests

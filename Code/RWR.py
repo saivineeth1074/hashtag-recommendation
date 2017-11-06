@@ -1,7 +1,10 @@
+"""
+	Program: Implementation of RWR
+"""
+
 import csv
 import networkx as nx
 import operator
-import matplotlib.pyplot as plt
 
 #Count the cooccurences of an entity and hashtag
 entTagCount = dict()

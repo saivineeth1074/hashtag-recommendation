@@ -1,3 +1,7 @@
+"""
+	Program: main code to recommend hashtags given a post (end-to-end code)
+"""
+
 import os
 import csv
 import RWR
