@@ -5,6 +5,8 @@
 import os
 import csv
 import RWR
+import LTModel
+import domainLink
 
 def similarDesc(row):
 	return
@@ -13,7 +15,8 @@ def similarContent(row):
 	return
 
 def domainLink(row):
-	return
+	res = domainLink.domain("politics.csv",5)
+	return res
 
 def RWR(row):
 	entities = [r.strip()[1:-1] for r in row[10].split(",")]
@@ -21,7 +24,9 @@ def RWR(row):
 	return res
 
 def LTRes(row):
-	return
+	entities = [r.strip()[1:-1] for r in row[10].split(",")]
+	res = LTModel.LT(entities)
+	return res
 
 if(__name__ == "__main__"):
 	with open("politics_test.csv", "r") as file:
